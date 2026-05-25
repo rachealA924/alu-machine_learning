@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Module for calculating the det."""
+"""Module for calculating the determinant of a matrix."""
+
 
 def determinant(matrix):
     """Calculates the determinant of a matrix"""
@@ -37,4 +38,3 @@ def determinant(matrix):
         det += ((-1) ** col) * matrix[0][col] * determinant(submatrix)
 
     return det
-
