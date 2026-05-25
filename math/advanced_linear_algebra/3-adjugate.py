@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Module for calculating the adjugate matrix."""
 
 cofactor = __import__('2-cofactor').cofactor
 

@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Module for calculating the minor matrix."""
 
 determinant = __import__('0-determinant').determinant
 
@@ -37,3 +38,4 @@ def minor(matrix):
         minor_matrix.append(row)
 
     return minor_matrix
+    

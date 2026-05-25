@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Module for calculating the inverse matrix."""
 
 determinant = __import__('0-determinant').determinant
 adjugate = __import__('3-adjugate').adjugate

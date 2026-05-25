@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Module for calculating the definiteness matrix."""
 
 import numpy as np
 
@@ -35,3 +36,4 @@ def definiteness(matrix):
         return "Negative semi-definite"
 
     return "Indefinite"
+    

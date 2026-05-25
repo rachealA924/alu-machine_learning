@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Module for calculating the cofactor matrix."""
 
 minor = __import__('1-minor').minor
 

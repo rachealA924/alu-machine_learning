@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""Module for calculating the det."""
 
 def determinant(matrix):
     """Calculates the determinant of a matrix"""
