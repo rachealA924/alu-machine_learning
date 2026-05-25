@@ -1,4 +1,4 @@
-# 2-cofactor.py
+#!/usr/bin/env python3
 
 minor = __import__('1-minor').minor
 

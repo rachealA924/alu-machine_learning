@@ -1,4 +1,4 @@
-# 3-adjugate.py
+#!/usr/bin/env python3
 
 cofactor = __import__('2-cofactor').cofactor
 

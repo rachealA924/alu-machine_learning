@@ -1,4 +1,4 @@
-# 0-determinant.py
+#!/usr/bin/env python3
 
 def determinant(matrix):
     """Calculates the determinant of a matrix"""

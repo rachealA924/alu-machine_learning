@@ -1,4 +1,4 @@
-# 1-minor.py
+#!/usr/bin/env python3
 
 determinant = __import__('0-determinant').determinant
 
