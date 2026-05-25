@@ -3,10 +3,10 @@
 
 
 def determinant(matrix):
-    """Calculates the determinant of a matrix"""
+    """Calculates the determinant of a matrix."""
 
-    if not isinstance(matrix, list) or \
-       not all(isinstance(row, list) for row in matrix):
+    if (not isinstance(matrix, list) or
+            not all(isinstance(row, list) for row in matrix)):
         raise TypeError("matrix must be a list of lists")
 
     if matrix == [[]]:
@@ -24,8 +24,10 @@ def determinant(matrix):
         return matrix[0][0]
 
     if n == 2:
-        return matrix[0][0] * matrix[1][1] - \
-               matrix[0][1] * matrix[1][0]
+        return (
+            matrix[0][0] * matrix[1][1] -
+            matrix[0][1] * matrix[1][0]
+        )
 
     det = 0
 
@@ -35,7 +37,10 @@ def determinant(matrix):
             for row in matrix[1:]
         ]
 
-        det += ((-1) ** col) * matrix[0][col] * determinant(submatrix)
+        det += (
+            ((-1) ** col) *
+            matrix[0][col] *
+            determinant(submatrix)
+        )
 
     return det
-    
