@@ -37,3 +37,4 @@ def determinant(matrix):
         det += ((-1) ** col) * matrix[0][col] * determinant(submatrix)
 
     return det
+
