@@ -77,4 +77,3 @@ class Poisson:
             cumulative += self.pmf(i)
 
         return cumulative
-    

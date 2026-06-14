@@ -112,4 +112,3 @@ class Normal:
         )
 
         return 0.5 * (1 + (2 / (pi ** 0.5)) * erf)
-    

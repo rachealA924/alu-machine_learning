@@ -67,4 +67,3 @@ class Exponential:
         e = 2.7182818285
 
         return 1 - (e ** (-self.lambtha * x))
-    

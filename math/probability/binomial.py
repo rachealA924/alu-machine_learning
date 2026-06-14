@@ -109,4 +109,3 @@ class Binomial:
             cumulative += self.pmf(i)
 
         return cumulative
-    
